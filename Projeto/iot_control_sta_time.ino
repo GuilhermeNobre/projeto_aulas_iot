@@ -13,8 +13,8 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // REPLACE WITH YOUR NETWORK CREDENTIALS
-const char* ssid = "MAX";
-const char* password = "12456270";
+const char* ssid = "WIFI";
+const char* password = "XXXXXX";
 AsyncWebServer server(80);
 
 const char* mqttServer = "broker.emqx.io";
