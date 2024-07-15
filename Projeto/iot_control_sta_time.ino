@@ -47,7 +47,7 @@ void onTurnHigh(AsyncWebServerRequest *request)
 void onTurnLow(AsyncWebServerRequest *request)
 {
     digitalWrite(pinRele, LOW);
-    request -> send(202, "text/plain", "ON");
+    request -> send(202, "text/plain", "LOW");
 }
 
 unsigned long epochTime; 
